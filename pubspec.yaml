@@ -1,0 +1,39 @@
+name: homework_1
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  dio: ^5.3.0
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.2
+  convert: ^3.1.1
+  flutter_bmflocation: ^3.6.0
+  flutter_baidu_mapapi_map: ^3.7.0
+  flutter_baidu_mapapi_search: ^3.7.0
+  permission_handler: ^11.3.1
+  get: ^4.6.6
+  flutter_easyloading: ^3.0.5
+  flutter_screenutil: ^5.9.0
+  universal_platform: ^1.0.0+1
+  flutter_webview_plugin: ^0.4.0
+  flutter_baidu_mapapi_utils: ^3.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/avatar/
+
