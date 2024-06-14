@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:homework_1/ai_chat.dart';
 import 'package:homework_1/todolist.dart';
 import 'home_page.dart'; // 引入HomePage
 import 'map.dart';
@@ -15,7 +16,8 @@ class _HomeState extends State<Home> {
   final List<Widget> _children = [
     HomePage(),
     // LocationView(),
-    ToDoListPage(),
+    // ToDoListPage(),
+    ChatPage(),
     UserInfo(),
   ];
 

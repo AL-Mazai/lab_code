@@ -1,5 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
+import 'package:homework_1/home.dart';
 import 'package:homework_1/login-ai.dart';
 import 'login.dart';
 
@@ -13,14 +14,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // home: LoginPage(),
-      home: LoginScreen(),
+      // home: LoginScreen(),
+      home: Home(),
     );
   }
 }
 
 void configureDio() {
   dio.options.baseUrl = 'http://localhost:8888';
-  dio.options.connectTimeout = Duration(seconds: 5);
-  dio.options.receiveTimeout = Duration(seconds: 3);
+  dio.options.connectTimeout = Duration(seconds: 15);
+  dio.options.receiveTimeout = Duration(seconds: 15);
 }
