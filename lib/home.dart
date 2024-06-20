@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:homework_1/ai_chat.dart';
+import 'package:homework_1/history.dart';
 import 'package:homework_1/todolist.dart';
 import 'home_page.dart'; // 引入HomePage
 import 'map.dart';
@@ -14,10 +15,11 @@ class _HomeState extends State<Home> {
   int _currentIndex = 0;
 
   final List<Widget> _children = [
-    HomePage(),
+    ChatPage(),
+    History(),
+    // HomePage(),
     // LocationView(),
     // ToDoListPage(),
-    ChatPage(),
     UserInfo(),
   ];
 
@@ -41,7 +43,7 @@ class _HomeState extends State<Home> {
           items: [
             BottomNavigationBarItem(
               icon: new Icon(Icons.home),
-              label: '首页',
+              label: 'AI Chat',
             ),
             // BottomNavigationBarItem(
             //   icon: new Icon(Icons.location_city),
@@ -49,7 +51,7 @@ class _HomeState extends State<Home> {
             // ),
             BottomNavigationBarItem(
               icon: new Icon(Icons.work),
-              label: '待办',
+              label: '历史会话',
             ),
             BottomNavigationBarItem(
               icon: new Icon(Icons.person),
