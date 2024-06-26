@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:homework_1/ai_chat.dart';
 import 'package:homework_1/history.dart';
 import 'package:homework_1/todolist.dart';
+import 'ai_tongyi.dart';
 import 'home_page.dart'; // 引入HomePage
 import 'map.dart';
 import 'user_info.dart'; // 引入ProfilePage
@@ -15,6 +16,7 @@ class _HomeState extends State<Home> {
   int _currentIndex = 0;
 
   final List<Widget> _children = [
+    // WebSocketChatPage(),
     ChatPage(),
     History(),
     // HomePage(),

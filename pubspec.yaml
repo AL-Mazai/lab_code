@@ -25,6 +25,7 @@ dependencies:
   universal_platform: ^1.0.0+1
   flutter_webview_plugin: ^0.4.0
   flutter_baidu_mapapi_utils: ^3.7.0
+  web_socket_channel: ^3.0.0
 
 dev_dependencies:
   flutter_test:
