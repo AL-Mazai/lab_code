@@ -23,6 +23,7 @@ class _HomeState extends State<Home> {
     // LocationView(),
     // ToDoListPage(),
     UserInfo(),
+    // HTMLViewExample(),
   ];
 
   void onTabTapped(int index) {
@@ -47,10 +48,6 @@ class _HomeState extends State<Home> {
               icon: new Icon(Icons.home),
               label: 'AI Chat',
             ),
-            // BottomNavigationBarItem(
-            //   icon: new Icon(Icons.location_city),
-            //   label: '地图',
-            // ),
             BottomNavigationBarItem(
               icon: new Icon(Icons.work),
               label: '历史会话',

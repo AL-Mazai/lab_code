@@ -10,31 +10,65 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  http: ^1.2.1
-  dio: ^5.3.0
-  cupertino_icons: ^1.0.6
-  shared_preferences: ^2.2.2
-  convert: ^3.1.1
-  flutter_bmflocation: ^3.6.0
-  flutter_baidu_mapapi_map: ^3.7.0
-  flutter_baidu_mapapi_search: ^3.7.0
-  permission_handler: ^11.3.1
-  get: ^4.6.6
+  cupertino_icons: ^1.0.5
+  flutter_markdown: ^0.6.14
+  uuid: ^3.0.7
+  http: ^0.13.5
+  sp_util: ^2.0.3
+  shared_preferences: ^2.0.20
+  intl: ^0.18.0
+  get_storage: ^2.1.1
   flutter_easyloading: ^3.0.5
+  url_launcher: ^6.1.10
+  share_plus: ^6.3.1
+  rating_dialog: ^2.0.4
+  lottie: ^2.3.1
+  provider: ^6.0.5
+  flutter_tts: ^3.6.3
+#  http: ^1.2.1
+  dio: ^5.3.0
+#  cupertino_icons: ^1.0.6
+#  shared_preferences: ^2.2.2
+#  convert: ^3.1.1
+#  flutter_bmflocation: ^3.6.0
+#  flutter_baidu_mapapi_map: ^3.7.0
+#  flutter_baidu_mapapi_search: ^3.7.0
+#  permission_handler: ^11.3.1
+#  get: ^4.6.6
+#  flutter_easyloading: ^3.0.5
   flutter_screenutil: ^5.9.0
   universal_platform: ^1.0.0+1
   flutter_webview_plugin: ^0.4.0
-  flutter_baidu_mapapi_utils: ^3.7.0
+#  flutter_baidu_mapapi_utils: ^3.7.0
   web_socket_channel: ^3.0.0
+  envied: ^0.5.4+1
+  dart_openai: ^3.0.0
+  flutter_html: ^2.2.1
+  flutter_math_fork: ^0.5.0
+  fl_chart: ^0.68.0
+#  flutter_markdown: ^0.7.2+1
+#  uuid: ^4.4.0
+#  sp_util: ^2.0.3
+#  intl: ^0.18.0
+#  dart_openai: ^1.9.1
+#  get_storage: ^2.1.1
+#  url_launcher: ^6.1.10
+#  share_plus: ^6.3.1
+#  rating_dialog: ^2.0.4
+#  lottie: ^2.3.1
+#  provider: ^6.0.5
+#  flutter_tts: ^3.6.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+  flutter_dotenv: ^5.0.2
 
 flutter:
   uses-material-design: true
 
   assets:
     - images/avatar/
-
+    - images/
+    - .env
